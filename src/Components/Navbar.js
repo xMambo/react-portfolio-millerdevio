@@ -30,7 +30,7 @@ function Navbar() {
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             millerdev.io
-            <i class='' />
+            <i className='' />
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -43,34 +43,34 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/services'
+                to='/design'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Services
+                Design
               </Link>
             </li>
             <li className='nav-item'>
               <Link
-                to='/products'
+                to='/develop'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Products
+                Develop
               </Link>
             </li>
 
             <li>
               <Link
-                to='/sign-up'
+                to='/contact'
                 className='nav-links-mobile'
                 onClick={closeMobileMenu}
               >
-                Sign Up
+                Contact
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
+          {button && <Button buttonStyle='btn--outline'>CONTACT</Button>}
         </div>
       </nav>
     </>
