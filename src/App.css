@@ -26,16 +26,16 @@
   }
   
   .develop {
-
+    background-image: url('/src/src-img-folder/startup.jpg');
     background-position: center;
     background-size: fill;
     background-repeat: no-repeat;
-    color: #000;
+    color: #fff;
     font-size: 100px;
   }
   
   .contact {
-
+    
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
